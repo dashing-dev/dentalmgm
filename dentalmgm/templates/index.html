@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+        a {
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Dental Management App</h1>
+    <a href="{% url 'add_patient' %}">Add Patient</a>
+    <a href="{% url 'patients' %}">View Patients</a>
+    <a href="{% url 'patient_list' %}">View Patient Details</a>
+</body>
+</html>
