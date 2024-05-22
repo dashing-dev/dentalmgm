@@ -1,10 +1,8 @@
-Certainly! Below is a sample README file for your project. You can customize it further based on your specific project details:
 
----
 
-# BIRAUTA Dental Clinic
+#  Dental Clinic
 
-Welcome to the BIRAUTA Dental Clinic project! This Django-based web application allows you to manage patient records, appointments, and clinic information. Here's a brief overview of the project:
+Welcome to the  Dental Clinic project! This Django-based web application allows you to manage patient records, appointments, and clinic information. Here's a brief overview of the project:
 
 ## Features
 
